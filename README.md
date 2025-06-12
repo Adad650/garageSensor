@@ -60,7 +60,7 @@ Yellow ------> Pin 3 (with 220Ω resistor to GND)
 Red    ------> Pin 4 (with 220Ω resistor to GND)
 ```
 
-![Schematic Diagram](images/schematic.png)
+
 
 ---
 
