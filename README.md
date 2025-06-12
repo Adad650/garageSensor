@@ -60,6 +60,21 @@ Yellow ------> Pin 3 (with 220Ω resistor to GND)
 Red    ------> Pin 4 (with 220Ω resistor to GND)
 ```
 
+---
+
+## Distance Calculation
+
+The HC-SR04 ultrasonic sensor measures distance by sending out an ultrasonic pulse and timing how long it takes to receive the echo. The distance is calculated using the formula:
+
+```
+distance in cm = duration * 0.034(The speed of sound) / 2 
+```
+
+- duration is the time of pulse
+- 0.034 isnt the speed of sound, The speed of sound is 343 m/s but we want the distnace in cm to I lowered the decimal places
+- / 2 Becuase we only want one way time.
+- The sensor emits a pulse via the TRIG pin.
+- The ECHO pin goes HIGH for the duration it takes the pulse to travel to the object and back.
 
 
 ---
@@ -67,6 +82,12 @@ Red    ------> Pin 4 (with 220Ω resistor to GND)
 ## Example Images
 
 Parking Assistant in Action:
+
+![Parking Assistant 1](IMG_1051.jpg)
+![Parking Assistant 2](IMG_1052.jpg)
+![Parking Assistant 3](IMG_1053.jpg)
+![Parking Assistant 4](IMG_1054.jpg)
+![Parking Assistant 5](IMG_1055.jpg)
 
 ---
 
