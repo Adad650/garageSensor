@@ -86,15 +86,12 @@ Parking Assistant in Action:
 > **Note:** If the images below do not display on GitHub, Download the images to your computer then view.
 
 | Parking Assistant in Action |
-|:---------------------------:|
-
-![Whatever you want](Images/IMG_1051.jpg)
-![Whatever you want](Images/IMG_1052.jpg)
-![Whatever you want](Images/IMG_1053.jpg)
-![Whatever you want](Images/IMG_1054.jpg)
-![Whatever you want](Images/IMG_1055.jpg)
-
----
+|:---------------------------|
+| ![](Images/IMG_1051.jpg) |
+| ![](Images/IMG_1052.jpg) |
+| ![](Images/IMG_1053.jpg) |
+| ![](Images/IMG_1054.jpg) |
+| ![](Images/IMG_1055.jpg) |
 
 ## Usage
 
