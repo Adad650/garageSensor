@@ -83,11 +83,15 @@ distance in cm = duration * 0.034(The speed of sound) / 2
 
 Parking Assistant in Action:
 
-![Parking Assistant 1](IMG_1051.jpg)
-![Parking Assistant 2](IMG_1052.jpg)
-![Parking Assistant 3](IMG_1053.jpg)
-![Parking Assistant 4](IMG_1054.jpg)
-![Parking Assistant 5](IMG_1055.jpg)
+> **Note:** If the images below do not display on GitHub, Download the images to your computer then view.
+
+| Parking Assistant in Action |
+|:---------------------------:|
+| ![Parking Assistant 1](IMG_1051.jpg) |
+| ![Parking Assistant 2](IMG_1052.jpg) |
+| ![Parking Assistant 3](IMG_1053.jpg) |
+| ![Parking Assistant 4](IMG_1054.jpg) |
+| ![Parking Assistant 5](IMG_1055.jpg) |
 
 ---
 
