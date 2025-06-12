@@ -68,8 +68,6 @@ Red    ------> Pin 4 (with 220Ω resistor to GND)
 
 Parking Assistant in Action:
 
-![Parking Assistant](images/parking-assistant-action.jpg)
-
 ---
 
 ## Usage
