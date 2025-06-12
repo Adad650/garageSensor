@@ -34,12 +34,14 @@ An Arduino-based parking assistant that uses an ultrasonic sensor to measure you
 
 ## Hardware Required
 
-- 1 × Arduino Uno (or compatible)
-- 1 × HC-SR04 Ultrasonic Sensor
-- 3 × LEDs (Red, Yellow, Green)
-- 3 × 220Ω resistors
-- Jumper wires
-- Breadboard
+- 1 × Arduino Uno (or compatible) $16.17 USD
+- 1 × HC-SR04 Ultrasonic Sensor $4.63 USD
+- 3 × LEDs (Red, Yellow, Green) $6.09 USD
+- 3 × 220Ω resistors $0.1 USD
+- Jumper wires $0.1 USD
+- Breadboard $3 USD
+
+Total = $30.09 USD
 
 ---
 
