@@ -1,1 +1,90 @@
-A highly sophisticated distance sensor that is capable of analyzing changes in a cars movements to then provide a precise 5v pin output to the corresponding light emiting diode(LED).
+# Arduino Parking Assistant
+
+An Arduino-based parking assistant that uses an ultrasonic sensor to measure your car's distance from a wall or obstacle. Based on the measured distance, it lights up one of three LEDs (green, yellow, red) to help you park safely and accurately.
+
+---
+
+## Features
+
+- **Ultrasonic distance measurement** using HC-SR04 sensor
+- **Three-level LED indication**:
+    - **Green LED:** Safe distance
+    - **Yellow LED:** Getting close
+    - **Red LED:** Stop!
+- **Automatic timeout:** LEDs turn off after 30 seconds of inactivity
+
+---
+
+## Installation Instructions
+
+### 1. Install Arduino IDE
+
+- Download the [Arduino IDE](https://www.arduino.cc/en/software) for your operating system.
+- Follow the installation instructions for Windows, macOS, or Linux.
+- Connect your Arduino board to your computer via USB.
+
+### 2. Set Up the Project
+
+- Clone or download this repository.
+- Open `main.cpp` in the Arduino IDE.
+- Select your Arduino board and port from the **Tools** menu.
+- Click **Upload** to flash the code to your Arduino.
+
+---
+
+## Hardware Required
+
+- 1 × Arduino Uno (or compatible)
+- 1 × HC-SR04 Ultrasonic Sensor
+- 3 × LEDs (Red, Yellow, Green)
+- 3 × 220Ω resistors
+- Jumper wires
+- Breadboard
+
+---
+
+## Schematic Diagram
+
+Below is a schematic diagram showing how to wire the components:
+
+```
+[HC-SR04]      [Arduino UNO]
+VCC    ------> 5V
+GND    ------> GND
+TRIG   ------> Pin 9
+ECHO   ------> Pin 10
+
+[LEDs]
+Green  ------> Pin 2 (with 220Ω resistor to GND)
+Yellow ------> Pin 3 (with 220Ω resistor to GND)
+Red    ------> Pin 4 (with 220Ω resistor to GND)
+```
+
+![Schematic Diagram](images/schematic.png)
+
+---
+
+## Example Images
+
+Parking Assistant in Action:
+
+![Parking Assistant](images/parking-assistant-action.jpg)
+
+---
+
+## Usage
+
+- As you approach the sensor, the LEDs indicate your distance:
+    - **Green:** Far (safe)
+    - **Yellow:** Getting close
+    - **Red:** Very close (stop)
+- If the distance category changes, the corresponding LED lights up.
+- If no change is detected for 30 seconds, all LEDs turn off automatically.
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
+
+For questions or contributions, please open an issue or pull request!
