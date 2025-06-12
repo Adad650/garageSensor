@@ -87,11 +87,10 @@ Parking Assistant in Action:
 
 | Parking Assistant in Action |
 |:---------------------------|
-| ![1](images/IMG_1051.jpg) |
-| ![2](images/IMG_1052.jpg) |
-| ![3](images/IMG_1053.jpg) |
-| ![4](images/IMG_1054.jpg) |
-| ![5](images/IMG_1055.jpg) |
+| ![1](images/garageSensor-1.jpg) |
+| ![2](images/garageSensor-2.jpg) |
+| ![3](images/garageSensor-RedLight.jpg) |
+| ![4](images/garageSensor-YellowLight.jpg) |
 
 ## Usage
 
