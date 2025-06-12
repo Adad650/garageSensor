@@ -87,11 +87,11 @@ Parking Assistant in Action:
 
 | Parking Assistant in Action |
 |:---------------------------:|
-[Alt text](Images/IMG_1051.jpg)
-[Alt text](Images/IMG_1052.jpg) |
-[Alt text](Images/IMG_1053.jpg) |
-[Alt text](Images/IMG_1054.jpg) |
-[Alt text](Images/IMG_1055.jpg) |
+![](Images/IMG_1051.jpg)
+![](Images/IMG_1052.jpg) |
+![](Images/IMG_1053.jpg) |
+![](Images/IMG_1054.jpg) |
+![](Images/IMG_1055.jpg) |
 
 ---
 
