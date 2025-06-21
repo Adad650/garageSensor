@@ -40,6 +40,7 @@ An Arduino-based parking assistant that uses an ultrasonic sensor to measure you
 - 3 × 220Ω resistors $0.1 USD
 - Jumper wires $0.1 USD
 - Breadboard $3 USD
+- 3D printed files on [Makerworld](https://makerworld.com/en/models/1538595-garage-sensor#profileId-1614409)
 
 Total = $30.09 USD
 
