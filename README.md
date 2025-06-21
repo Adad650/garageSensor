@@ -2,6 +2,8 @@
 
 An Arduino-based parking assistant that uses an ultrasonic sensor to measure your car's distance from a wall or obstacle. Based on the measured distance, it lights up one of three LEDs (green, yellow, red) to help you park safely and accurately.
 
+# 3D PRINTING FILES ARE ON [MAKERWORLD](https://makerworld.com/en/models/1538595-garage-sensor#profileId-1614409)
+
 ---
 
 ## Features
