@@ -4,11 +4,14 @@ const int pin1 = 4;
 const int pin2 = 5;
 const int pin3 = 6;
 
+const int redZone = 20; // Distance in cm for the red zone
+const int yellowZone = 100; // Distance in cm for the yellow zone
 
 int lastCategory = 0;     
 bool timedOut = false;
 unsigned long ledOnTime = 0;
 const unsigned long timeout = 30000;
+
 
 void setup() {
   pinMode(trigPin, OUTPUT);
@@ -35,7 +38,7 @@ void loop() {
   Serial.println(" cm");
 
   int status;
-  if (distanceInt < 60)       status = 1;
+  if (distanceInt < redZone)       status = 1;
   else if (distanceInt <= 100) status = 2;
   else                         status = 3;
 
@@ -62,6 +65,12 @@ void loop() {
     }
 
   }
-
+  if (timedOut) {
+    digitalWrite(pin1, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+  }
   delay(250);
 }
+
+
