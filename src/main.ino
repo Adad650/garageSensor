@@ -22,7 +22,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {
+void loop() {}
 
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);

@@ -1,6 +1,6 @@
-# Arduino Parking Assistant
+# Esp32 Parking Assistant
 
-An Arduino-based parking assistant that uses an ultrasonic sensor to measure your car's distance from a wall or obstacle. Based on the measured distance, it lights up one of three LEDs (green, yellow, red) to help you park safely and accurately.
+An Esp32-based parking assistant that uses an ultrasonic sensor to measure your car's distance from a wall or obstacle. Based on the measured distance, it lights up one of three LEDs (green, yellow, red) to help you park safely and accurately.
 
 # 3D PRINTING FILES ARE ON [MAKERWORLD](https://makerworld.com/en/models/1538595-garage-sensor#profileId-1614409)
 
@@ -36,7 +36,7 @@ An Arduino-based parking assistant that uses an ultrasonic sensor to measure you
 
 ## Hardware Required
 
-- 1 × Arduino Uno (or compatible) $16.17 USD
+- 1 × esp32-dev module (or compatible) $ 1.50 USD
 - 1 × HC-SR04 Ultrasonic Sensor $4.63 USD
 - 3 × LEDs (Red, Yellow, Green) $6.09 USD
 - 3 × 220Ω resistors $0.1 USD
@@ -53,7 +53,7 @@ Total = $30.09 USD
 Below is a schematic diagram showing how to wire the components:
 
 ```
-[HC-SR04]      [Arduino UNO]
+[HC-SR04]      [ESP32]
 VCC    ------> 5V
 GND    ------> GND
 TRIG   ------> Pin 9
